@@ -143,3 +143,4 @@ Trong tự nhiên và trong kỹ thuật, toàn bộ các hệ thống phức t�
    - Circuit Breaker để cô lập service bị hỏng.
    - Dead Letter Queue (DLQ) để cách ly các message độc hại làm crash worker liên tục.
 3. **Cảnh giác với độ trễ (Delay) trong vòng phản hồi:** (Sẽ được phân tích chuyên sâu tại Module 4) — Một vòng cân bằng có độ trễ thông tin quá lớn sẽ biến thành một vòng dao động hỗn loạn phá hủy hệ thống!
+

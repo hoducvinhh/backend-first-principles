@@ -194,3 +194,4 @@ $\Rightarrow$ **Kết luận Root Cause:** Gốc rễ của vụ sập DB **khô
 > 2. **Luôn quan sát toàn cảnh (Look at the whole):** Một sự thay đổi nhỏ ở một góc của hệ thống có thể tạo ra cơn bão lớn ở góc bên kia.
 > 3. **Tôn trọng các giới hạn vật lý và độ trễ:** Hiểu rõ giới hạn chịu đựng của phần cứng, mạng và bộ nhớ để thiết kế các chốt chặn an toàn trước khi thảm họa xảy ra.
 > 4. **Học từ sự cố (Learn from incidents):** Mỗi lần hệ thống gặp lỗi là một cơ hội vàng để bạn hiểu sâu hơn về cấu trúc thực sự của nó. Hãy biến mỗi sự cố thành một bước tiến hóa cho kiến trúc bền vững trong tương lai.
+

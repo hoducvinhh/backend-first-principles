@@ -159,3 +159,4 @@ Mô hình C4 do Simon Brown khởi xướng ví như Google Maps cho phần mề
 1. **Cẩn trọng với Dependency ngầm:** Luôn phân tích cây phụ thuộc (Dependency Graph). Một sự cố mạng nhỏ ở một dịch vụ phân tích dữ liệu không quan trọng có thể kéo sập API thanh toán cốt lõi nếu hai bên có quan hệ phụ thuộc đồng bộ.
 2. **Ứng dụng mẫu thiết kế Circuit Breaker:** Khi Service A phụ thuộc vào Service B qua mạng, bắt buộc phải bọc lời gọi bằng Circuit Breaker (ngắt mạch khi lỗi liên tiếp) và Timeout nghiêm ngặt để cắt đứt sự phụ thuộc khi hệ thống có sự cố.
 3. **Luôn bắt đầu bằng việc vẽ Bản đồ Hệ thống (Map before Code):** Trước khi tối ưu hiệu năng hay refactor một hệ thống cũ, hãy vẽ sơ đồ bối cảnh và luồng dữ liệu (C4 Model Level 1 & 2). Bạn không thể tối ưu hóa thứ mà bạn không nhìn thấy cấu trúc toàn cảnh của nó!
+

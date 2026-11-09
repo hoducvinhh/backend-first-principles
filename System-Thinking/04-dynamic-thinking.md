@@ -135,3 +135,4 @@ Tốc độ cải thiện của toàn bộ hệ thống bị giới hạn nghiê
    - Sử dụng cơ chế Pre-warming Pods trước các sự kiện Flash Sale để triệt tiêu Action Delay.
 3. **Tìm đúng Điểm Nghẽn trước khi viết code tối ưu:**
    - Đừng đoán mò điểm nghẽn dựa trên cảm tính. Hãy sử dụng các công cụ đo đạc thực tế: **Distributed Tracing (OpenTelemetry/Jaeger)**, **APM Profiling** để tìm ra mắt xích chậm nhất. Tối ưu hóa điểm nghẽn duy nhất đó sẽ nâng thông lượng của toàn bộ hệ thống lên gấp nhiều lần!
+

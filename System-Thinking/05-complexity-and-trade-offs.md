@@ -126,3 +126,4 @@ Trong một hệ thống phân tán qua mạng, mạng luôn có thể bị phâ
    - Sử dụng **Jitter** trong cơ chế Caching (thêm một số giây ngẫu nhiên vào TTL của key) để các key không bao giờ bị hết hạn cùng một thời điểm $\rightarrow$ Tránh thảm họa Cache Stampede.
    - Thiết lập **Rate Limiter** và **Bulkhead** để khoanh vùng sự cố, ngăn không cho một service phụ kéo sập toàn bộ hệ thống lớn.
 3. **Đánh giá Động cơ trước khi đưa ra Luật:** Khi thiết lập các chỉ số KPI kỹ thuật hay cấu hình tự động, hãy luôn đặt câu hỏi: *"Người ta hoặc hệ thống có thể 'lách luật' (Gaming the system) theo hướng tiêu cực nào?"*.
+

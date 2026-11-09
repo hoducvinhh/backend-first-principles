@@ -167,3 +167,4 @@ Mọi hệ thống xử lý thông tin đều có thể mô hình hóa thông qu
    - Trong thiết kế Domain-Driven Design (DDD), việc vẽ rõ **Bounded Context** chính là xác định ranh giới hệ thống con.
    - Ranh giới rõ ràng giúp định hình rõ trách nhiệm của đội nhóm (Team boundaries), cấu trúc module và bảo vệ tính toàn vẹn của dữ liệu.
 3. **Môi trường luôn không ổn định (Unreliable Environment):** Hãy luôn nhớ rằng mạng (Network) luôn có thể bị trễ hoặc rớt, máy chủ Cloud luôn có thể bị khởi động lại, dịch vụ bên thứ ba luôn có thể sập. Thiết kế hệ thống an toàn là thiết kế có khả năng thích nghi với môi trường biến động liên tục.
+
